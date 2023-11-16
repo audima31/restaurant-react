@@ -1,0 +1,331 @@
+* {
+    /* font-family: 'Rufina', serif; */
+    /* font-family: 'Inknut Antiqua', serif; */
+    font-family: 'EB Garamond', serif;
+    
+}
+
+/* Remove blank right */
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Content 1 */
+.gambar1Content1{
+    width: 70%;
+    border-radius: 0px 80px 0px 80px;
+}
+
+.containerCaption1 {
+    text-align: right;
+}
+
+.caption1Content1{
+    line-height: 125%;
+}
+
+.caption2Content1{
+    line-height: 0%;
+}
+
+.button1Content1{
+    background-color: #C6A936 ;
+    width: 10em;
+}
+
+.button2Content1{
+    background-color: #ECF5CE ;
+    width: 10em;
+}
+
+.scrollText{
+    writing-mode: vertical-rl;
+}
+
+.listMobile {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.listMobile li{
+    float: left;
+    padding-left: 1em;
+    font-size: 0.7em;
+}
+/* END Content 1 */
+
+/* Content 2 */
+.caption1Content2{
+    line-height: 100%;
+    font-size: 4vw;
+}
+
+.caption2Content2{
+    font-size: 1.5vw;
+}
+
+.garisContent5 {
+    border: none;
+    border-top: 4px dotted black;
+    height: 1px;
+    width: 100%;
+}
+
+.hargaMenuHome{
+    font-size: 1.6em;
+    line-height: 80%;
+}
+
+.captionMenuHome{
+    text-align: justify;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+/*END Content 2 */
+
+/* Content3 */
+.caption1Content3{
+    writing-mode: vertical-rl;
+    font-size: 1.4em;
+}
+
+.caption2Content3{
+    position: relative;
+    top: 10em;
+}
+/* END Content3 */
+
+/* Content4 */
+.containerContent4{
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.iconContent4{
+    background-color: #ebf0e4;
+    padding: 2em;
+    border-radius: 50%;
+}
+/* END Content4 */
+
+
+/* Conten6 */
+
+
+/* Content 7 */
+
+
+.gambarPetik {
+  width: 20%;
+  max-width: 8em; /* Lebar maksimum agar responsif */
+  position: relative;
+  top: 10vh;
+  left: 72vw;
+  z-index: -2;
+}
+
+/* Footer */
+
+#textInput::placeholder {
+    color: #FFFFFF;
+}
+
+.garisFooter {
+    border-top: 4px dotted white;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+  
+/* Extra Large */
+@media only screen and (min-width: 1801px) {
+    .paragrap1hContent1{
+        font-size: 6em;
+    }
+    .paragraph2Content1{
+        font-size: 2em;
+    }
+    .hargaMenuHome{
+        font-size: 2em;
+    }
+    .captionMenuHome{
+        font-size: 1.2em;
+        width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 1800px) {
+    .paragrap1hContent1{
+        font-size: 5em;
+    }
+    .paragraph2Content1{
+        font-size: 1.4em;
+    }
+  }
+
+@media only screen and (max-width: 1500px) {
+    .paragrap1hContent1{
+        font-size: 4em;
+    }
+    .paragraph2Content1{
+        font-size: 1.2em;
+    }
+  }
+/* ---------------------------------------------------------------------- */
+ 
+  /* Large */
+@media only screen and (max-width: 1200px) {
+    .paragrap1hContent1{
+        font-size: 3.5em;
+    }
+
+    .paragraph2Content1{
+        font-size: 1.1em;
+    }
+    
+    .namaMenuHome{
+        font-size: 2em;
+    }
+
+    .hargaMenuHome{
+        font-size: 1.3em;
+    }
+  }
+/* ---------------------------------------------------------------------- */
+
+  /* Medium */
+  @media only screen and (min-width: 768px ) and ( max-width: 869px) {
+    .paragrap1hContent1{
+        font-size: 2.5em;
+    }
+    .paragraph2Content1{
+        font-size: 0.8em;
+    }
+
+    .button1Content1{
+        background-color: #C6A936 ;
+        width: 8em;
+        font-size: 0.8em;
+    }
+    
+    .button2Content1{
+        background-color: #ECF5CE ;
+        width: 8em;
+        font-size: 0.8em;
+    }
+
+    .caption1Content2{
+        font-size: 2.5em;
+    }
+    
+    .caption2Content2{
+        font-size: 0.9em;
+    }
+    
+    .namaMenuHome{
+        font-size: 1.8em;
+    }
+
+    .hargaMenuHome{
+        font-size: 1.3em;
+    }
+
+    .captionMenuHome{
+        font-size: 0.8em;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 870px ) and ( max-width: 991px) {
+    .paragrap1hContent1{
+        font-size: 3em;
+    }
+    .paragraph2Content1{
+        font-size: 0.9em;
+    }
+    
+    .button1Content1{
+        width: 10em;
+        font-size: 0.8em;
+    }
+    
+    .button2Content1{
+        width: 10em;
+        font-size: 0.8em;
+    }
+
+    
+    .caption1Content2{
+        font-size: 2.5em;
+    }
+    
+    .caption2Content2{
+        font-size: 0.9em;
+    }
+
+    .namaMenuHome{
+        font-size: 1.8em;
+    }
+
+    .hargaMenuHome{
+        font-size: 1.3em;
+    }
+
+    .captionMenuHome{
+        font-size: 0.8em;
+        width: 100%;
+    }
+  }
+
+  
+/* ---------------------------------------------------------------------- */
+
+/* Small */
+@media only screen and (max-width: 767px )  {
+    .button1Content1{
+        background-color: #C6A936 ;
+        width: 8em;
+        font-size: 0.8em;
+    }
+    
+    .button2Content1{
+        background-color: #ECF5CE ;
+        width: 8em;
+        font-size: 0.8em;
+    }
+
+    .caption1Content2{
+        font-size: 3em;
+    }
+    
+    .caption2Content2{
+        font-size: 0.8em;
+    }
+
+    .fotoDaun{
+        width: 100%;
+    }
+
+    .namaMenuHome{
+        font-size: 1.5em;
+    }
+
+    .hargaMenuHome{
+        font-size: 1.3em;
+    }
+
+    .captionMenuHome{
+        font-size: 0.8em;
+        width: 100%;
+    }
+  }
