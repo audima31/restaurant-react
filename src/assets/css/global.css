@@ -5,6 +5,12 @@
     
 }
 
+/* Bootraps */
+/* pe-3 = padding-left : 1em */
+/* pe-4 = padding-left : 1.5em */
+/* pe-5 = padding-left : 3em */
+
+
 /* Remove blank right */
 html,body {
     width: 100%;
@@ -137,8 +143,6 @@ html,body {
 
 
 /* Content 7 */
-
-
 .gambarPetik {
   width: 20%;
   max-width: 8em; /* Lebar maksimum agar responsif */
@@ -149,7 +153,6 @@ html,body {
 }
 
 /* Footer */
-
 #textInput::placeholder {
     color: #FFFFFF;
 }
@@ -162,6 +165,25 @@ html,body {
     padding:0;
 }
 
+/* FOOTER */
+.inputEmail {
+    border-color: #FFFFFF;
+    border-radius: 0;
+    background-color: #233000;
+    padding: 1em 3em 1em 1em;
+}
+
+.buttonSubscribe{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #FFFFFF;
+}
+
+.subCaption3{
+    font-size: 0.9em;
+}
   
 /* Extra Large */
 @media only screen and (min-width: 1801px) {
@@ -260,6 +282,24 @@ html,body {
         font-size: 0.8em;
         width: 100%;
     }
+
+    /* Footer */
+    .inputEmail {
+        border-color: #FFFFFF;
+        border-radius: 0;
+        background-color: #233000;
+        padding: 1em 1.5em 1em 1em;
+    }
+    
+    .buttonSubscribe{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: #FFFFFF;
+    }
+    /* End Footer */
+  
   }
 
   @media only screen and (min-width: 870px ) and ( max-width: 991px) {
@@ -367,4 +407,19 @@ html,body {
     .caption1Content6{
         font-size: 2.5em;
     }
+
+     /* Footer */
+     .inputEmail {
+        border-color: #FFFFFF;
+        border-radius: 0;
+        background-color: #233000;
+        padding: 0.5em;
+        text-align: center;
+    }
+    
+    .buttonSubscribe{
+        padding: 0.5em;
+        color: #FFFFFF;
+    }
+    /* End Footer */
   }
