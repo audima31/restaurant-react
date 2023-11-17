@@ -118,6 +118,22 @@ html,body {
 
 
 /* Conten6 */
+.caption1Content6 {
+    font-size: 3.5em;
+    line-height: 80%;
+}
+
+.caption2Content6 {
+    line-height: 50%;
+}
+
+.reservationInput {
+    border-color: #212529;
+    border-radius: 0;
+    width: 15em;
+    background-color: #ebf0e4 ;
+}
+
 
 
 /* Content 7 */
@@ -287,6 +303,19 @@ html,body {
     }
   }
 
+  @media only screen and (min-width: 768px ) and ( max-width: 991px) {
+    .reservationInput {
+        border-color: #212529;
+        border-radius: 0;
+        width: 10.5em;
+        background-color: #ebf0e4 ;
+    }
+    .caption1Content6{
+        font-size: 3em;
+    }
+  }
+
+
   
 /* ---------------------------------------------------------------------- */
 
@@ -327,5 +356,15 @@ html,body {
     .captionMenuHome{
         font-size: 0.8em;
         width: 100%;
+    }
+
+    .iconContent4{
+        background-color: #ebf0e4;
+        padding: 1.5em;
+        border-radius: 50%;
+    }
+
+    .caption1Content6{
+        font-size: 2.5em;
     }
   }

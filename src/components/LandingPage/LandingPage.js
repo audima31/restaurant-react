@@ -18,7 +18,7 @@ class LandingPage extends Component {
         <Content2 />
         <Content3 />
         <Content4 />
-        <Content5 />
+        {/* <Content5 /> */}
         <Content6 />
         <Content7 />
         <Footer />
