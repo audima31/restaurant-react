@@ -140,6 +140,11 @@ html,body {
     background-color: #ebf0e4 ;
 }
 
+.reservationInput::-webkit-calendar-picker-indicator {
+    filter: invert(0) saturate(100%) brightness(100%);
+  transform: scaleX(-1);
+  }
+
 
 
 /* Content 7 */

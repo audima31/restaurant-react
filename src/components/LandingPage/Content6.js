@@ -22,6 +22,7 @@ class Content6 extends Component {
                   type="date"
                   className="form-control form-control-lg reservationInput"
                   id="dateInput"
+                  placeholder="dd/mm/yyyy"
                 />
               </div>
 

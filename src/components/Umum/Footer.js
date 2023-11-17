@@ -9,9 +9,7 @@ class Footer extends Component {
           <div className="container ">
             <div className="row p-5">
               <div className="col-2 text-center d-flex align-items-center">
-                <h1 className="fs-1">
-                  Food <br /> Zero.
-                </h1>
+                <h1 className="fs-1">Mayastik.</h1>
               </div>
               <div className="col-4 d-flex justify-content-center">
                 <div className="d-flex align-items-start flex-column">
@@ -55,9 +53,10 @@ class Footer extends Component {
 
         {/* Small - Medium */}
         <div className="d-block d-lg-none">
+          {/* Small */}
           <div className="d-block d-md-none">
             <div className="text-center">
-              <h1 className="fs-1 pt-3">Food Zero.</h1>
+              <h1 className="fs-1 pt-3"> Mayastik.</h1>
             </div>
 
             <div className="text-center mt-4 pt-2">
@@ -74,7 +73,7 @@ class Footer extends Component {
               >
                 <label className="buttonSubscribe">Subscribe</label>
               </button>
-              <p className="mt-2 pt-1 pb-3">
+              <p className="mt-3 pt-1 pb-3">
                 Join our subscribers and get best recipe delivered each week!
               </p>
             </div>
@@ -118,11 +117,11 @@ class Footer extends Component {
             </div>
           </div>
 
-          {/*  */}
+          {/* Medium */}
           <div className="d-none d-md-block">
             <div className="row px-3 py-5">
               <div className="col-6 col-md-2 text-center d-flex align-items-center">
-                <h1 className="fs-1">Food Zero.</h1>
+                <h1 className="fs-1"> Mayastik. .</h1>
               </div>
               <div className="col-6 col-md-4 d-flex justify-content-center">
                 <div className="d-flex align-items-start flex-column">
