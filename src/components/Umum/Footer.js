@@ -108,7 +108,7 @@ class Footer extends Component {
                 >
                   Copyright © 2023
                 </div>
-                <div className="mt-2 ">
+                <div className="mt-2 pb-2">
                   <a href="https://www.linkedin.com/in/audimaoktasena/">
                     <img src={iconLinkedIn} alt="LinkedIn" />
                   </a>
@@ -121,7 +121,7 @@ class Footer extends Component {
           <div className="d-none d-md-block">
             <div className="row px-3 py-5">
               <div className="col-6 col-md-2 text-center d-flex align-items-center">
-                <h1 className="fs-1"> Mayastik. .</h1>
+                <h1 className="fs-1"> Mayastik.</h1>
               </div>
               <div className="col-6 col-md-4 d-flex justify-content-center">
                 <div className="d-flex align-items-start flex-column">

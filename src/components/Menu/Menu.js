@@ -1,31 +1,26 @@
 import React, { Component } from "react";
 import Content1 from "./Content1";
-import Header from "../Umum/Header";
+import "../../assets/css/menu.css";
 import Content2 from "./Content2";
 import Content3 from "./Content3";
 import Content4 from "./Content4";
-import Content5 from "./Content5";
-import Content6 from "./Content6";
-import Content7 from "./Content7";
+import Content6 from "../LandingPage/Content6";
 import Footer from "../Umum/Footer";
-import "../../assets/css/global.css";
 
-class LandingPage extends Component {
+class Menu extends Component {
   render() {
     return (
       <div>
-        <Header />
         <Content1 />
         <Content2 />
         <Content3 />
         <Content4 />
-        {/* <Content5 /> */}
+        <div style={{ marginTop: "10%" }}></div>
         <Content6 />
-        <Content7 />
         <Footer />
       </div>
     );
   }
 }
 
-export default LandingPage;
+export default Menu;

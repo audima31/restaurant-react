@@ -1,0 +1,179 @@
+* {
+    /* font-family: 'Rufina', serif; */
+    /* font-family: 'Inknut Antiqua', serif; */
+    font-family: 'EB Garamond', serif;
+    
+}
+
+/* Bootraps */
+/* pe-3 = padding-left : 1em */
+/* pe-4 = padding-left : 1.5em */
+/* pe-5 = padding-left : 3em */
+
+a {
+    text-decoration: none;
+}
+
+/* Remove blank right */
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Content1 */
+.container-Caption{
+    margin-top: 5em;
+    margin-bottom: 13em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.caption1Content1Menu {
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.caption2Content1Menu{
+    font-weight: 100;
+}
+/*  */
+
+/* Content2 */
+.caption1Content2Menu{
+    line-height: 100%;
+    font-size: 4vw;
+}
+
+.caption2Content2Menu{
+    font-size: 1.5vw;
+}
+
+.garisContent2Menu {
+    border-top: 4px dotted rgb(0, 0, 0);
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+/*  */
+
+/* Extra Large */
+@media only screen and (min-width: 1801px) {
+    .caption1Content1Menu {
+        font-size: 7em;
+    }
+    .caption2Content1Menu{
+        font-size: 1.8em;
+    }
+
+  }
+
+@media only screen and (max-width: 1800px) {
+    .caption1Content1Menu {
+        font-size: 6em;
+    }
+    .caption2Content1Menu{
+        font-size: 1.4em;
+    }
+  }
+
+@media only screen and (max-width: 1500px) {
+    .caption1Content1Menu {
+        font-size: 5em;
+    }
+    .caption2Content1Menu{
+        font-size: 1.2em;
+    }
+  }
+/* ---------------------------------------------------------------------- */
+ 
+  /* Large */
+@media only screen and (max-width: 1200px) {
+    .container-Caption{
+        margin-top: 3em;
+        margin-bottom: 9em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    .caption1Content1Menu {
+        font-size: 5em;
+    }
+    .caption2Content1Menu{
+        font-size: 1.1em;
+    }
+    
+
+  }
+/* ---------------------------------------------------------------------- */
+
+  /* Medium */
+  @media only screen and (min-width: 768px ) and ( max-width: 869px) {
+    .container-Caption{
+        margin-top: 3em;
+        margin-bottom: 9em;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    .caption1Content1Menu {
+        font-size: 4em;
+    }
+    .caption2Content1Menu{
+        font-size: 1em;
+    }
+    .caption1Content2Menu{
+        font-size: 2.5em;
+    }
+   
+
+    /* End Footer */
+  
+  }
+
+  @media only screen and (min-width: 870px ) and ( max-width: 991px) {
+    .caption1Content1Menu {
+        font-size: 4.5em;
+    }
+    .caption2Content1Menu{
+        font-size: 1.1em;
+    }
+    .caption1Content2Menu{
+        font-size: 2.5em;
+    }
+   
+  }
+
+  @media only screen and (min-width: 768px ) and ( max-width: 991px) {
+    .caption2Content2Menu{
+        font-size: 1em;
+    }
+  }
+
+
+  
+/* ---------------------------------------------------------------------- */
+
+/* Small */
+@media only screen and (max-width: 767px )  {
+    .container-Caption{
+        margin-top: 2em;
+        margin-bottom: 7em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .caption1Content1Menu {
+        font-size: 4em;
+    }
+    .caption2Content1Menu {
+        font-size: 0.95em;
+    }
+    .caption1Content2Menu{
+        font-size: 2.5em;
+    }
+    .caption2Content2Menu{
+        font-size: 1em;
+    }
+    /* End Footer */
+  }

@@ -31,28 +31,37 @@ class Content1 extends Component {
                 We treat all of our customers with utmost care and service.
               </p>
               <div className="pb-5 mt-2">
-                <button type="button" className="btn button1Content1">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <label className="mr-2" style={{ color: "#233000" }}>
+                <a
+                  href="/menu"
+                  className="mr-2"
+                  style={{ color: "#233000", textDecoration: "none" }}
+                >
+                  <button type="button" className="btn button1Content1">
+                    <div className="d-flex align-items-center justify-content-between">
                       Menus
-                    </label>
-                    <i
-                      className="bi bi-arrow-right-short mt-1"
-                      style={{ color: "#233000" }}
-                    ></i>
-                  </div>
-                </button>
-                <button type="button" className="btn ms-4 button2Content1">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <label className="mr-2" style={{ color: "#233000" }}>
+                      <i
+                        className="bi bi-arrow-right-short mt-1"
+                        style={{ color: "#233000" }}
+                      ></i>
+                    </div>
+                  </button>
+                </a>
+
+                <a
+                  href="/reservations"
+                  className="mr-2"
+                  style={{ color: "#233000", textDecoration: "none" }}
+                >
+                  <button type="button" className="btn ms-4 button2Content1">
+                    <div className="d-flex align-items-center justify-content-between">
                       Reservations
-                    </label>
-                    <i
-                      className="bi bi-arrow-right-short mt-1"
-                      style={{ color: "#233000" }}
-                    ></i>
-                  </div>
-                </button>
+                      <i
+                        className="bi bi-arrow-right-short mt-1"
+                        style={{ color: "#233000" }}
+                      ></i>
+                    </div>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -79,12 +88,20 @@ class Content1 extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="/">
+                  <a
+                    className="nav-link"
+                    href="/menu"
+                    style={{ textDecoration: "none" }}
+                  >
                     Menus
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="/">
+                  <a
+                    className="nav-link"
+                    href="/reservations"
+                    style={{ textDecoration: "none" }}
+                  >
                     Reservations
                   </a>
                 </li>
@@ -112,28 +129,37 @@ class Content1 extends Component {
               We treat all of our customers with utmost care and service.
             </p>
             <div className="pb-5 mt-4 text-center">
-              <button type="button" className="btn button1Content1">
-                <div className="d-flex align-items-center justify-content-between">
-                  <label className="mr-2" style={{ color: "#233000" }}>
+              <a
+                href="/menu"
+                className="mr-2"
+                style={{ color: "#233000", textDecoration: "none" }}
+              >
+                <button type="button" className="btn button1Content1">
+                  <div className="d-flex align-items-center justify-content-between">
                     Menus
-                  </label>
-                  <i
-                    className="bi bi-arrow-right-short mt-1"
-                    style={{ color: "#233000" }}
-                  ></i>
-                </div>
-              </button>
-              <button type="button" className="btn ms-4 button2Content1">
-                <div className="d-flex align-items-center justify-content-between">
-                  <label className="mr-2" style={{ color: "#233000" }}>
+                    <i
+                      className="bi bi-arrow-right-short mt-1"
+                      style={{ color: "#233000" }}
+                    ></i>
+                  </div>
+                </button>
+              </a>
+
+              <a
+                href="/reservations"
+                className="mr-2"
+                style={{ color: "#233000", textDecoration: "none" }}
+              >
+                <button type="button" className="btn ms-4 button2Content1">
+                  <div className="d-flex align-items-center justify-content-between">
                     Reservations
-                  </label>
-                  <i
-                    className="bi bi-arrow-right-short mt-1"
-                    style={{ color: "#233000" }}
-                  ></i>
-                </div>
-              </button>
+                    <i
+                      className="bi bi-arrow-right-short mt-1"
+                      style={{ color: "#233000" }}
+                    ></i>
+                  </div>
+                </button>
+              </a>
             </div>
           </div>
         </div>

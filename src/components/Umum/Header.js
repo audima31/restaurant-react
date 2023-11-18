@@ -29,19 +29,27 @@ export default function Header() {
                 <a
                   className="nav-link active ms-md-2"
                   aria-current="page"
-                  href="#/"
+                  href="/"
                   style={{ color: "#FFFFFF" }}
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item ms-md-2">
-                <a className="nav-link" href="#/" style={{ color: "#FFFFFF" }}>
+                <a
+                  className="nav-link"
+                  href="/menu"
+                  style={{ color: "#FFFFFF" }}
+                >
                   Menus
                 </a>
               </li>
               <li className="nav-item ms-md-2">
-                <a className="nav-link" href="#/" style={{ color: "#FFFFFF" }}>
+                <a
+                  className="nav-link"
+                  href="/reservations"
+                  style={{ color: "#FFFFFF" }}
+                >
                   Reservations
                 </a>
               </li>
