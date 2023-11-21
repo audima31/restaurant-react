@@ -72,10 +72,10 @@ class Content1 extends Component {
             <div className="container-CaptionReservations">
               <div className="row">
                 <div className="col-md-7 col-lg-8">
-                  <p className="caption1Content1Menu d-flex flex-column ">
+                  <p className="caption1Content1Reservations d-flex flex-column ">
                     <label>Get in Touch</label>
                   </p>
-                  <label className="caption2Content1Menu">
+                  <label className="caption2Content1Resevations">
                     The freshest ingredients for you every day
                   </label>
                 </div>
@@ -176,11 +176,11 @@ class Content1 extends Component {
             {/* Content1 */}
             <div className="container-Caption">
               <div className="">
-                <p className="caption1Content1Menu d-flex flex-column ">
+                <p className="caption1Content1Reservations d-flex flex-column ">
                   <label>View Our</label>
                   <label>New Menu</label>
                 </p>
-                <label className="caption2Content1Menu">
+                <label className="caption2Content1Resevations">
                   The freshest ingredients for you every day
                 </label>
               </div>

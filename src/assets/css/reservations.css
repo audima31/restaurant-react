@@ -34,67 +34,175 @@ html,body {
     margin-top: 13em;
     margin-bottom: 5em;
 }
-.caption1Content1Menu {
+.caption1Content1Reservations {
     font-weight: 500;
     line-height: 110%;
 }
 
-.caption2Content1Menu{
+.caption2Content1Resevations{
     font-weight: 100;
 }
 /*  */
 
-/* Content2 */
-.caption1Content2Menu{
-    line-height: 100%;
-    font-size: 4vw;
+/* Content2 dan Content3*/
+.fotoImage1{
+    width: 80%;
 }
 
-.caption2Content2Menu{
-    font-size: 1.5vw;
+.fotoImage2{
+    width: 80%;
 }
 
-.garisContent2Menu {
-    border-top: 4px dotted rgb(0, 0, 0);
-    height: 1px;
+.fotoJeruk{
     width: 100%;
-    margin: 0;
-    padding:0;
+}
+
+.content2Image-Container{
+    position: relative;
+    }
+
+.container-image1 {
+    position: relative;
+    z-index: 3;
+    top: 1em
+  }
+  
+  .container-FotoJeruk {
+    position: absolute;
+    left: 33em;
+    bottom: 20em;
+    z-index: 2;
+  }
+
+  .captions1Content2Reservation{
+    font-size: 2em;
+  }
+  .captions2Content2Reservation{
+    font-size: 2em;
+  }
+/*  */
+
+/* Content4 */
+.reservationsInputContent4 {
+    border-color: #212529;
+    border-radius: 0;
+    width: 100%;
+    background-color: #ebf0e4 ;
+}
+
+#FormInputContent4::placeholder {
+    /* color: black; */
 }
 /*  */
 
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* Extra Large */
 @media only screen and (min-width: 1801px) {
-    .caption1Content1Menu {
+    .caption1Content1Reservations {
         font-size: 7em;
     }
-    .caption2Content1Menu{
+    .caption2Content1Resevations{
         font-size: 1.8em;
     }
 
   }
 
-@media only screen and (max-width: 1800px) {
-    .caption1Content1Menu {
+@media only screen and  (min-width: 1501px ) and (max-width: 1800px) {
+    .caption1Content1Reservations {
         font-size: 6em;
     }
-    .caption2Content1Menu{
+    .caption2Content1Resevations{
         font-size: 1.4em;
     }
   }
 
-@media only screen and (max-width: 1500px) {
-    .caption1Content1Menu {
+  @media only screen and (min-width: 1400px ) and (max-width: 1500px) {
+    .caption1Content1Reservations {
         font-size: 5em;
     }
-    .caption2Content1Menu{
+    .caption2Content1Resevations{
         font-size: 1.2em;
     }
+
+    /* Content 2 dan Content 3 */
+    .fotoImage1{
+        margin-left: 4em;
+        margin-top: 2em;
+    }
+
+    .fotoJeruk{
+        width: 140%;
+    }
+
+    .container-image1 {
+        position: relative;
+        z-index: 3;
+        top: 1em
+      }
+      
+      .container-FotoJeruk {
+        position: absolute;
+        left: 36em;
+        bottom: 19.8em;
+        z-index: 2;
+      }
+
+      .captions2Content2Reservation{
+        margin-left: 4em;
+      }
+  }
+
+@media only screen and (min-width: 1200px ) and (max-width: 1399px) {
+    .caption1Content1Reservations {
+        font-size: 5em;
+    }
+    .caption2Content1Resevations{
+        font-size: 1.2em;
+    }
+
+    .captions1Content2Reservation{
+        font-size: 1.5em;
+      }
+      .captions2Content2Reservation{
+        font-size: 1.5em;
+      }
+
+    /* Content 2 dan Content 3 */
+    .fotoImage1{
+        margin-left: 2em;
+    }
+
+    .fotoJeruk{
+        width: 110%;
+    }
+
+    .container-image1 {
+        position: relative;
+        z-index: 3;
+        top: 1em
+      }
+      
+      .container-FotoJeruk {
+        position: absolute;
+        left: 30em;
+        bottom: 17.8em;
+        z-index: 2;
+      }
+
+      .captions2Content2Reservation{
+        margin-left: 2em;
+      }
   }
 /* ---------------------------------------------------------------------- */
  
   /* Large */
-@media only screen and (max-width: 1200px) {
+@media only screen and ( min-width: 992px) and (max-width: 1199px) {
+    /* Content 1 */
     .container-CaptionReservations{
         margin-left: 5em;
         margin-right: 5em;
@@ -104,19 +212,73 @@ html,body {
         margin-bottom: 3em;
     }
 
-    .caption1Content1Menu {
+  
+
+    .caption1Content1Reservations {
         font-size: 5em;
     }
-    .caption2Content1Menu{
+    .caption2Content1Resevations{
         font-size: 1.1em;
     }
-    
+
+    /* Content 2 dan Content 3 */
+    .captions1Content2Reservation{
+        font-size: 1.45em;
+      }
+      .captions2Content2Reservation{
+        font-size: 1.45em;
+      }
+    .container-image1 {
+        position: relative;
+        z-index: 3;
+        top: 1em
+      }
+      
+      .container-FotoJeruk {
+        position: absolute;
+        left: 24em;
+        bottom: 14.5em;
+        z-index: 2;
+      }
 
   }
 /* ---------------------------------------------------------------------- */
-
   /* Medium */
-  @media only screen and (min-width: 768px ) and ( max-width: 869px) {
+  @media only screen and (min-width: 870px ) and ( max-width: 991px) {
+    /* Content 1 */
+    .caption1Content1Reservations {
+        font-size: 4.5em;
+    }
+    .caption2Content1Resevations{
+        font-size: 1.1em;
+    }
+
+    /* Content 2 dan Content 3 */
+    
+
+    .fotoImage1{
+        width: 80%;
+    }
+    /* .fotoJeruk{
+        width: 100%;
+      } */
+    .container-image1 {
+        position: relative;
+        z-index: 3;
+        top: 1em
+      }
+    .container-FotoJeruk {
+        position: absolute;
+        left: 17em;
+        bottom: 10em;
+        z-index: 2;
+      }
+
+   
+}
+
+@media only screen and (min-width: 768px ) and ( max-width: 869px) {
+    /* Content 1 */
     .container-CaptionReservations{
         margin-left: 3em;
         margin-right: 3em;
@@ -125,42 +287,49 @@ html,body {
         margin-top: 9em;
         margin-bottom: 3em;
     }
-    .caption1Content1Menu {
+    .caption1Content1Reservations {
         font-size: 4em;
     }
-    .caption2Content1Menu{
+    .caption2Content1Resevations{
         font-size: 1em;
     }
-    .caption1Content2Menu{
-        font-size: 2.5em;
-    }
-   
 
-    /* End Footer */
-  
-  }
-
-  @media only screen and (min-width: 870px ) and ( max-width: 991px) {
-    .caption1Content1Menu {
-        font-size: 4.5em;
+    /* Content 2 dan Content 3 */
+    .fotoImage1{
+        width: 80%;
     }
-    .caption2Content1Menu{
+    /* .fotoJeruk{
+        width: 100%;
+      } */
+    .container-image1 {
+        position: relative;
+        z-index: 3;
+        top: 1em
+      }
+    .container-FotoJeruk {
+        position: absolute;
+        left: 17em;
+        bottom: 10em;
+        z-index: 2;
+      }
+    }
+
+@media only screen and (min-width: 768px ) and ( max-width: 991px) {
+    /* Content 2 dan 3 */
+    .captions1Content2Reservation{
         font-size: 1.1em;
-    }
-    .caption1Content2Menu{
-        font-size: 2.5em;
-    }
-   
-  }
+      }
 
-  @media only screen and (min-width: 768px ) and ( max-width: 991px) {
-    .caption2Content2Menu{
-        font-size: 1em;
+      .captions2Content2Reservation{
+        font-size: 1.1em;
+      }
+      
+
+      .fotoImage2{
+        width: 90%;
+      }
     }
-  }
 
-
-  
 /* ---------------------------------------------------------------------- */
 
 /* Small */
@@ -173,17 +342,19 @@ html,body {
         margin-top: 7em;
         margin-bottom: 2em;
     }
-    .caption1Content1Menu {
+    .caption1Content1Reservations {
         font-size: 4em;
     }
-    .caption2Content1Menu {
+    .caption2Content1Resevations {
         font-size: 0.95em;
     }
-    .caption1Content2Menu{
-        font-size: 2.5em;
-    }
-    .caption2Content2Menu{
-        font-size: 1em;
-    }
+
+    /* Content 2 dan Content 3 */
+    .captions1Content2Reservation{
+        font-size: 0.9em;
+      }
+      .captions2Content2Reservation{
+        font-size: 0.9em;
+      }
     /* End Footer */
   }
