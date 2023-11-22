@@ -356,5 +356,35 @@ html,body {
       .captions2Content2Reservation{
         font-size: 0.9em;
       }
-    /* End Footer */
+   
+      .fotoJeruk{
+      width: 90%;
+      position: relative;
+      left: 0em; 
+      }
+     
+  }
+
+  @media only screen and (max-width: 700px )  {
+   .fotoJeruk{
+    width: 90%;
+    position: relative;
+    left: 0.5em; 
+   }
+  }
+
+  @media only screen and (max-width: 600px )  {
+    .fotoJeruk{
+     width: 85%;
+     position: relative;
+     left: 0.5em; 
+    }
+   }
+
+  @media only screen and (max-width: 500px )  {
+    .fotoJeruk{
+     width: 80%;
+     position: relative;
+     left: 1em; 
+    }
   }

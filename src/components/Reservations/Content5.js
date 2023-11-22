@@ -1,50 +1,13 @@
 import React, { Component } from "react";
-import fotoJeruk from "../../assets/images/Reservation/imageMid.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image1 from "../../assets/images/Reservation/image1.png";
 import { Carousel } from "react-responsive-carousel";
 import DataContactUs from "../../json/DataContactUs";
+import fotoJeruk from "../../assets/images/Reservation/imageMid.png";
 
-class Content2 extends Component {
+class Content5 extends Component {
   render() {
-    console.log("Data : ", DataContactUs);
     return (
       <div>
-        {/* Medium - Large */}
-        <div className="d-none d-md-block">
-          <div className="container mt-md-4 mt-lg-5">
-            <div className="row mb-5 pb-5">
-              <div className="col-7">
-                <div className="content2Image-Container mt-5 ">
-                  <div className="container-image1">
-                    <img src={image1} alt="" className="fotoImage1" />
-                  </div>
-                  <div className="container-FotoJeruk">
-                    <img src={fotoJeruk} alt="" className="fotoJeruk" />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col d-flex flex-column justify-content-end align-items-left pb-lg-5 pb-md-3">
-                <div className="captions1Content2Reservation">
-                  <label className="fw-semibold">
-                    We can be contacted via{" "}
-                  </label>
-                  <br />
-                  <label className="fw-semibold">
-                    email <label>info@Mayastik.com</label>{" "}
-                  </label>
-                  <br />
-                  <label className="fw-semibold ">
-                    or telephone on{" "}
-                    <label style={{ color: "#9CAA00" }}>+62 852 346 000</label>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Small */}
         <div className="d-block d-md-none">
           <div className="d-flex justify-content-between">
@@ -109,4 +72,4 @@ class Content2 extends Component {
   }
 }
 
-export default Content2;
+export default Content5;

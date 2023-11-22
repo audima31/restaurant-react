@@ -177,8 +177,7 @@ class Content1 extends Component {
             <div className="container-Caption">
               <div className="">
                 <p className="caption1Content1Reservations d-flex flex-column ">
-                  <label>View Our</label>
-                  <label>New Menu</label>
+                  <label>Get in Touch</label>
                 </p>
                 <label className="caption2Content1Resevations">
                   The freshest ingredients for you every day
