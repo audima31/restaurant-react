@@ -4,7 +4,6 @@ import "../../assets/css/menu.css";
 import Content2 from "./Content2";
 import Content3 from "./Content3";
 import Content4 from "./Content4";
-import Content6 from "../LandingPage/Content6";
 import Footer from "../Umum/Footer";
 
 class Menu extends Component {
@@ -16,7 +15,6 @@ class Menu extends Component {
         <Content3 />
         <Content4 />
         <div style={{ marginTop: "10%" }}></div>
-        <Content6 />
         <Footer />
       </div>
     );

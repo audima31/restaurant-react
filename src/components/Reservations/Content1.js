@@ -175,13 +175,42 @@ class Content1 extends Component {
             </div>
             {/* Content1 */}
             <div className="container-Caption">
-              <div className="">
-                <p className="caption1Content1Reservations d-flex flex-column ">
+              <div className="text-center">
+                <p className="caption1Content1Reservations  ">
                   <label>Get in Touch</label>
                 </p>
                 <label className="caption2Content1Resevations">
                   The freshest ingredients for you every day
                 </label>
+              </div>
+
+              <div>
+                <div className="d-flex flex-column paraghrap2Content1Reservations">
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="fw-semibold" style={{ fontSize: "1.2em" }}>
+                      Open Time
+                    </div>
+                    <div style={{ fontSize: "1em" }}>Sunday - Friday</div>
+                  </div>
+                  <hr className="garisFooter my-3" />
+                  <div className="d-flex justify-content-between">
+                    <div>
+                      <label>Bruch</label>
+                      <br />
+                      <label>11:00-12:00</label>
+                    </div>
+                    <div>
+                      <label>Lunch</label>
+                      <br />
+                      <label>13:00-17:00</label>
+                    </div>
+                    <div>
+                      <label>Dinner</label>
+                      <br />
+                      <label>18:00-20:00</label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </nav>

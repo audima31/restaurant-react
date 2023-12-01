@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import GambarBackground from "../../assets/images/Menu/BackgroundHeader.png";
+import GambarBackground from "../../../assets/images/Menu/BgDetailMenu.png";
 
-class Content1 extends Component {
+class Header extends Component {
   render() {
     return (
       <div>
@@ -71,13 +71,9 @@ class Content1 extends Component {
             {/* Content1 */}
             <div className="container-Caption">
               <div className="">
-                <p className="caption1Content1Menu d-flex flex-column ">
-                  <label>View Our</label>
-                  <label>New Menu</label>
+                <p className="caption1Content1Menu d-flex flex-column text-center ">
+                  <label>Nama Menu Detail</label>
                 </p>
-                <label className="caption2Content1Menu">
-                  The freshest ingredients for you every day
-                </label>
               </div>
             </div>
           </nav>
@@ -143,13 +139,9 @@ class Content1 extends Component {
             {/* Content1 */}
             <div className="container-Caption">
               <div className="text-center">
-                <p className="caption1Content1Menu d-flex flex-column ">
-                  <label>View Our</label>
-                  <label>New Menu</label>
+                <p className="caption1Content1Menu d-flex flex-column text-center ">
+                  <label>Nama Menu Detail</label>
                 </p>
-                <label className="caption2Content1Menu">
-                  The freshest ingredients for you every day
-                </label>
               </div>
             </div>
           </nav>
@@ -159,4 +151,4 @@ class Content1 extends Component {
   }
 }
 
-export default Content1;
+export default Header;

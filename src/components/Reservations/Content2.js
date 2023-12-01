@@ -46,7 +46,7 @@ class Content2 extends Component {
         </div>
 
         {/* Small */}
-        <div className="d-block d-md-none">
+        <div className="d-block d-md-none mt-2">
           <div className="d-flex justify-content-between">
             <div className="container d-flex flex-column justify-content-center">
               <label className="fw-bold" style={{ fontSize: "2.5em" }}>
