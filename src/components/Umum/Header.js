@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/images/image/HeaderLogo.png";
+// import Logo from "../../assets/images/image/HeaderLogo.png";
 export default function Header() {
   return (
     <>
@@ -21,7 +21,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="bi bi-three-dots-vertical"></i>
+            <i class="bi bi-list" style={{ color: "white" }}></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -81,7 +81,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="bi bi-three-dots-vertical"></i>
+            <i class="bi bi-list" style={{color: 'white'}}></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

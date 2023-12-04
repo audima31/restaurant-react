@@ -30,7 +30,7 @@ class Content1 extends Component {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <i className="bi bi-three-dots-vertical"></i>
+                <i class="bi bi-list" style={{ color: "white" }}></i>
               </button>
               <div
                 className="collapse navbar-collapse"
@@ -102,7 +102,7 @@ class Content1 extends Component {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <i className="bi bi-three-dots-vertical"></i>
+                <i class="bi bi-list" style={{ color: "white" }}></i>
               </button>
               <div
                 className="collapse navbar-collapse"

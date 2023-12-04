@@ -80,6 +80,10 @@ html,body {
     font-size: 1.5vw;
 }
 
+.captionRating{
+    font-size: 1.8vw;
+}
+
 .garisContent5 {
     border: none;
     border-top: 4px dotted black;
@@ -192,9 +196,17 @@ html,body {
 .subCaption3{
     font-size: 0.9em;
 }
+
   
 /* Extra Large */
 @media only screen and (min-width: 1801px) {
+    .ratingComment{
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .avatarRating{
+        max-width: 8em; /* Lebar maksimum agar responsif */
+    }
     .paragrap1hContent1{
         font-size: 6em;
     }
@@ -208,21 +220,46 @@ html,body {
         font-size: 1.2em;
         width: 100%;
     }
+    .gambarPetik {
+        max-width: 8em; /* Lebar maksimum agar responsif */
+        position: relative;
+        top: 10vh;
+        left: 50vw;
+        z-index: -2;
+      }
   }
 
 @media only screen and (max-width: 1800px) {
+    .ratingComment{
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .avatarRating{
+        max-width: 6em;
+    }
     .paragrap1hContent1{
         font-size: 5em;
     }
     .paragraph2Content1{
         font-size: 1.4em;
     }
+    .gambarPetik {
+        max-width: 8em; /* Lebar maksimum agar responsif */
+        position: relative;
+        top: 10vh;
+        left: 60vw;
+        z-index: -2;
+      }
   }
 
 @media only screen and (max-width: 1500px) {
     .paragrap1hContent1{
         font-size: 4em;
     }
+    .avatarRating{
+        max-width: 5em;
+    }
+    .pa
     .paragraph2Content1{
         font-size: 1.2em;
     }
@@ -231,6 +268,13 @@ html,body {
  
   /* Large */
 @media only screen and (max-width: 1200px) {
+    .ratingComment{
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .avatarRating{
+        max-width: 4.5em;
+    }
     .paragrap1hContent1{
         font-size: 3.5em;
     }
@@ -277,6 +321,15 @@ html,body {
     .caption2Content2{
         font-size: 0.9em;
     }
+    .captionRating{
+        font-size: 1.8vw;
+    }
+    .caption1User {
+        font-size: 0.9em;
+    }
+    .captionProfesi{
+        font-size: 0.7em;
+    }
     
     .namaMenuHome{
         font-size: 1.8em;
@@ -311,6 +364,7 @@ html,body {
   }
 
   @media only screen and (min-width: 870px ) and ( max-width: 991px) {
+  
     .paragrap1hContent1{
         font-size: 3em;
     }
@@ -336,6 +390,13 @@ html,body {
     .caption2Content2{
         font-size: 0.9em;
     }
+   
+    .caption1User {
+        font-size: 0.9em;
+    }
+    .captionProfesi{
+        font-size: 0.7em;
+    }
 
     .namaMenuHome{
         font-size: 1.8em;
@@ -358,6 +419,13 @@ html,body {
         width: 10.5em;
         background-color: #ebf0e4 ;
     }
+    .ratingComment{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .avatarRating{
+        max-width: 4em;
+    }
     .caption1Content6{
         font-size: 3em;
     }
@@ -369,6 +437,13 @@ html,body {
 
 /* Small */
 @media only screen and (max-width: 767px )  {
+    .ratingComment{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .avatarRating{
+        max-width: 3em;
+    }
     .button1Content1{
         background-color: #C6A936 ;
         width: 8em;
@@ -387,8 +462,17 @@ html,body {
     
     .caption2Content2{
         font-size: 0.8em;
-    }
 
+    }
+    .captionRating{
+        font-size: 1em;
+    }
+    .caption1User {
+        font-size: 0.8em;
+    }
+    .captionProfesi{
+        font-size: 0.6em;
+    }
     .fotoDaun{
         width: 100%;
     }
@@ -415,6 +499,14 @@ html,body {
     .caption1Content6{
         font-size: 2.5em;
     }
+
+    .gambarPetik {
+        max-width: 8em; /* Lebar maksimum agar responsif */
+        position: relative;
+        top: 10vh;
+        left: 50vw;
+        z-index: -2;
+      }
 
      /* Footer */
      .inputEmail {

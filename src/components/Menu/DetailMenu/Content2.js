@@ -12,7 +12,7 @@ class Content2 extends Component {
             style={{ width: "100%" }}
             className="p-md-5"
           />
-          <p className="text-center px-md-5 caption2Content2Menu">
+          <p className="text-justify mt-3 mt-md-0 px-0 px-md-5 caption2Content2Menu">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
             id penatibus imperdiet. Turpis egestas ultricies purus auctor
             tincidunt lacus nunc. Convallis pellentesque quis fringilla

@@ -5,25 +5,28 @@ class Content3 extends Component {
   render() {
     return (
       <div>
-        <div
-          className="text-center"
-          style={{ marginTop: "8%", marginBottom: "5%" }}
-        >
-          <p className="fw-bold caption1Content2Menu  ps-md-4 ps-lg-5">Mains</p>
-          <p className="caption2Content2Menu ps-md-4 ps-lg-5">
+        <div className="text-center containerMenu">
+          <label className="fw-bold caption1Content2Menu  ps-md-4 ps-lg-5">
+            Mains
+          </label>
+          <br />
+          <label className="mt-1 mt-md-2 caption2Content2Menu ps-md-4 ps-lg-5">
             This is a section of your menu. Give your section a brief
             description
-          </p>
+          </label>
         </div>
 
-        <div className="container ">
+        <div className="container mt-5 mt-md-0">
           <div className="row ">
-            <div className="col pe-5">
+            <div className="col pe-md-5 px-4 px-md-0">
               <div>
                 <p className="text-end fw-semibold hargaMenuHome">$20</p>
                 <hr className="garisContent2Menu" />
                 <a href="/menu/detail" style={{ color: "#212529" }}>
-                  <h1 className="fw-semibold namaMenuHome mt-1">
+                  <h1
+                    className="fw-semibold namaMenuHome mt-1"
+                    menuName={"Deep Sea Snow White"}
+                  >
                     Deep Sea Snow White
                   </h1>
                   <p className="captionMenuHome mt-3 ">
@@ -41,7 +44,10 @@ class Content3 extends Component {
                 <p className="text-end fw-semibold hargaMenuHome">$22</p>
                 <hr className="garisContent2Menu" />
                 <a href="/menu/detail" style={{ color: "#212529" }}>
-                  <h1 className="fw-semibold namaMenuHome mt-1">
+                  <h1
+                    className="fw-semibold namaMenuHome mt-1"
+                    menuName={"Steak Rosemary Butter"}
+                  >
                     Steak Rosemary Butter
                   </h1>
                   <p className="captionMenuHome mt-3 ">
@@ -58,7 +64,11 @@ class Content3 extends Component {
               <div>
                 <p className="text-end fw-semibold hargaMenuHome">$20</p>
                 <hr className="garisContent2Menu" />
-                <a href="/menu/detail" style={{ color: "#212529" }}>
+                <a
+                  href="/menu/detail"
+                  style={{ color: "#212529" }}
+                  menuName={"Steaks Grilled Kimchi"}
+                >
                   <h1 className="fw-semibold namaMenuHome mt-1">
                     Steaks Grilled Kimchi
                   </h1>
@@ -73,7 +83,7 @@ class Content3 extends Component {
               </div>
             </div>
             <div
-              className="col-4 col-md-5"
+              className="col-3 col-md-5"
               style={{
                 backgroundImage: `url(${Menu2})`,
                 backgroundRepeat: "no-repeat",
